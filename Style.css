@@ -1,0 +1,61 @@
+
+/* Importo la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@300&display=swap');
+
+/* Rem => Root */
+html {
+    font-size: 10px;
+}
+
+.ParrafosComunes {
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Fondo del header*/
+.header {
+    background-color: turquoise;
+}
+
+/*Fondo del footer*/
+.footer {
+    background-color: turquoise;
+    color: blue;
+}
+
+/* para las propiedasdes de la lista del footer */
+.listaFooter {
+    padding-left: 50%;
+}
+
+/* Color del menu */
+.menuColor {
+    color: rgb(255, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+    border: solid black;
+}
+
+
+/* le doy color a la primer lista */
+.Menu {
+    color: blueviolet;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    display: inline-flex;
+}
+
+/* le doy color a mi H1 */
+#Titulo {
+    color: brown;
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Propiedades del logo */
+
+.Logo {
+    padding-left: 78%;
+}
